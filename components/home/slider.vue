@@ -16,11 +16,11 @@
     </Splide>
 
     <div
-      class=" max-w-xl bg-opacity-70 sm:block absolute left-2 top-2 xl:top-1/2 translate-x-1/2 -translate-y-1/2  bg-gray-50 p-8 rounded-lg">
+      class=" max-w-lg lg:max-w-xl bg-opacity-70 top-8 left-6 right-6 lg:right-auto lg:bottom-auto absolute lg:left-2 lg:top-1/2 lg:translate-x-1/2 lg:-translate-y-1/2  bg-gray-50 p-8 rounded-lg">
       <h2 class="text-4xl">
         What we learned so far
       </h2>
-      <p class="text-6xl font-normal my-8">
+      <p class="text-5xl lg:text-6xl font-normal my-8">
         THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
       </p>
       <button class="border hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">
@@ -49,9 +49,7 @@ const options = reactive({
   interval: 3500,
   fixedHeight: 600,
   breakpoints: {
-    1200: {
-      fixedWidth: 500,
-    },
+
     640: {
       fixedWidth: "100%",
     },
