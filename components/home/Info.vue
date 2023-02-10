@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-cols-4 gap-8">
-    <div class="p-10 flex items-center border-2 row-span-2">
-      <div>
-        <h3 class="text-center text-3xl text-sassy">Ready</h3>
+  <div class="grid lg:grid-cols-5 gap-8">
+    <div class="p-10 flex items-center border-2 lg:col-span-2 lg:row-span-2">
+      <div class="mx-auto">
+        <h3 class="text-3xl text-center text-sassy">Ready</h3>
         <h2 class="text-4xl uppercase font-bold">For Party?</h2>
       </div>
     </div>
@@ -14,7 +14,7 @@
         </figcaption>
       </figure>
     </div>
-    <div class="border-2 col-span-2">
+    <div class="border-2 lg:col-span-2">
       <figure>
         <img class="object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?dance" alt="Thumb" />
         <figcaption>
@@ -22,11 +22,11 @@
         </figcaption>
       </figure>
     </div>
-    <div class="border-2 col-span-2">
+    <div class="border-2 lg:col-span-2">
       <figure>
-        <img class="object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?beer" alt="beer" />
+        <img class="object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?karaoke" alt="beer" />
         <figcaption>
-          <div>Thumbnail Caption</div>
+          <div>karaoke</div>
         </figcaption>
       </figure>
     </div>

@@ -23,7 +23,7 @@
       <p class="text-5xl lg:text-6xl font-normal my-8">
         THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
       </p>
-      <button class="border hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">
+      <button class="border transition-colors hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">
         <span class="flex items-center gap-2">
           <Icon name="bi:telephone-forward"  />
           <a href="tel:+39485938444">+39485938444</a>
