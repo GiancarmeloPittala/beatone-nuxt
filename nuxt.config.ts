@@ -1,11 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
+
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com',
     }
   },
   app: {
+    baseURL: '/beatone-nuxt/',
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
