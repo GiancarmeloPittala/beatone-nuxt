@@ -7,10 +7,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 50px;
-  height: 50px;
-  background-image: url(https://media.tenor.com/ltLTC6mfpqwAAAAC/tex-mex-mexican-foods.gif);
-  background-size: cover;
+  width: 8px;
+  height: 8px;
+  background: hsla(39, 47%, 59%, 1);
+  /* background-image: url(https://media.tenor.com/ltLTC6mfpqwAAAAC/tex-mex-mexican-foods.gif); */
+  /* background-size: cover; */
   border-radius: 50%;
   transition: all 200ms ease-out;
   z-index: 1;

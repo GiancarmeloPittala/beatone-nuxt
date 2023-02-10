@@ -18,7 +18,7 @@
         <BaseHeaderOpenButton  @click="open = !open" />
         <div class="hidden w-full md:block md:w-auto links mt-4"  :class="{ 'open': open }">
   
-          <ul class="flex items-center text-xl">
+          <ul class="grid md:flex space-y-4 md:space-y-0 items-center text-xl p-4 md:pr-0 mt-4 border border-primary-100 rounded-lg bg-gray-50 md:border-0 md:space-x-6 md:mt-0">
             <li>
               <nuxt-link :to="localePath({ path: '/', hash: $t('menu[0].to') })">
                 {{ $t('menu[0].text') }}
@@ -46,7 +46,7 @@
             </li>
 
            
-            <div class="pl-4 border-l-2 border-gray-200 z-50"> 
+            <div class="md:pl-4 md:border-l-2 border-gray-200 z-50"> 
                <BaseHeaderLangSwitcher />
             </div>
           </ul>

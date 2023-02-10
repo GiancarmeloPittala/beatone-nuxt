@@ -16,7 +16,7 @@
     </Splide>
 
     <div
-      class=" max-w-lg lg:max-w-xl bg-opacity-70 top-8 left-6 right-6 lg:right-auto lg:bottom-auto absolute lg:left-2 lg:top-1/2 lg:translate-x-1/2 lg:-translate-y-1/2  bg-gray-50 p-8 rounded-lg">
+      class="max-w-xl bg-opacity-70 absolute bg-gray-50 p-8 rounded-lg top-0 left-0 m-6 mt-8 lg:ml-[300px] lg:mt-20">
       <h2 class="text-4xl">
         What we learned so far
       </h2>

@@ -89,6 +89,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Roboto Slab': true,
+      'Sassy Frass': true,
       'sans-serif': true
     }
   },
