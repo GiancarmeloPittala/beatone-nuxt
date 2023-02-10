@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:blockcursor"></div>
+  <div class="hidden md:block cursor"></div>
 </template>
 
 <style>
