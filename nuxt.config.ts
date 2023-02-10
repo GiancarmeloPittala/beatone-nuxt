@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/beatone-nuxt/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/beatone-nuxt/' : '',
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',

@@ -9,7 +9,7 @@ const availableLocales = computed(() => {
 
    <HeadlessMenu as="div" class="w-full relative inline-block text-left">
 
-     <HeadlessMenuButton class="w-full border rounded-lg border-gray-900 px-4 py-2">
+     <HeadlessMenuButton class="w-full border rounded-lg border-primary text-primary px-4 py-2">
       <Icon name="material-symbols:language" class="h-5 w-5" />
       {{ locale }}
       <Icon class="ml-2 -mr-1 h-5 w-5 " name="ic:baseline-keyboard-arrow-down" />
