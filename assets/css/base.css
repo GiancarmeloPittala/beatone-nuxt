@@ -1,3 +1,16 @@
 *{
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.links a{
+  padding: 0.5rem 1rem;
+  transition: all .4s;
+  /* border-left: 2px solid transparent;  */
+}
+.links a:hover,
+.links .router-link-active.router-link-exact-active{
+  /* border-left: 2px solid hsla(39, 47%, 59%, 1);  */
+  color: hsla(39, 47%, 59%, 1);
+  
 }

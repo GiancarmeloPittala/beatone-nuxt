@@ -5,6 +5,24 @@ export default defineNuxtConfig({
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com',
     }
   },
+  app: {
+    head: {
+      charset: 'utf-16',
+      viewport: 'width=500, initial-scale=1',
+      title: 'My App',
+      meta: [
+        // <meta name="description" content="My amazing site">
+        { name: 'description', content: 'My amazing site.' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/imgs/icon/favicon.ico' },
+        { rel: 'apple-touch-icon', type: 'image/x-icon', sizes: "180x180", href: '/imgs/icon/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: "32x32", href: '/imgs/icon/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: "16x16", href: '/imgs/icon/favicon-16x16.png' },
+        { rel: 'manifest', href: '/imgs/icon/site.webmanifest' },
+      ]
+    },
+  },
   css: [
     '@/assets/css/tailwind.css',
     '@/assets/css/base.css'
@@ -25,6 +43,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     'nuxt-simple-robots',
     'nuxt-simple-sitemap',
+    //https://icones.js.org/
     'nuxt-icon',
     //https://unhead-schema-org.harlanzw.com/
     'nuxt-schema-org',
@@ -38,13 +57,15 @@ export default defineNuxtConfig({
         code: 'en',
         iso: 'en-US',
         file: 'en-US.json',
-        name: 'English'
+        name: 'English',
+        icon: 'twemoji:flag-for-flag-united-states'
       },
       {
         code: 'it',
         iso: 'it-IT',
         file: 'it-IT.json',
-        name: 'Italiano'
+        name: 'Italiano',
+        icon: 'openmoji:flag-italy'
       },
     ],
     defaultLocale: 'en',

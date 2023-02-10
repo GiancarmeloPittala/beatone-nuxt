@@ -14,11 +14,16 @@ useSchemaOrg([
 
 </script>
 <template>
-  <p class="text-white bg-red-900">
-    {{ t('test') }}
-  </p>
-  <BaseLangSwitcher />
-  <Icon name="uil:github" />
-  
+  <div>
+    <section id="hero">
+      <HomeSlider />
+    </section>
 
+    <div class="container mx-auto px-4 xl:px-6 grid my-6 xl:my-8 gap-6 xl:gap-8">
+        <HomeDescription />
+        <HomeSpecial />
+        <HomeContact />
+    </div>
+
+  </div>
 </template>
