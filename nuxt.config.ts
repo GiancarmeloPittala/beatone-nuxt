@@ -32,9 +32,12 @@ export default defineNuxtConfig({
         { name:"og:title", content:"Be At One Restaurant - Text Mex" },
         { name:"og:type", content:"website" },
         { name:"og:url", content:"https://giancarmelopittala.com/beatone-nuxt/" },
-        { name:"og:image", content:"https://giancarmelopittala.com/beatone-nuxt/imgs/icon/android-chrome-192x192.png" },
+        { name:"og:image", content:"https://giancarmelopittala.com/beatone-nuxt/imgs/full-size-logo.jpg" },
+        { property: "og:image:type", content:"image/jpg" },
+        { property: "og:image:width", content:"1024" },
+        { property: "og:image:height", content:"1024" },
         { name:"og:site_name", content:"Be At One Restaurant - Text Mex" },
-        { name:"og:description", content:"Be At One Pub motta, tex mex"}
+        { name:"og:description", content:"Be At One Pub motta, tex mex"},
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/imgs/icon/favicon.ico' },

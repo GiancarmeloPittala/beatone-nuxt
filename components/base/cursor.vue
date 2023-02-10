@@ -1,5 +1,5 @@
 <template>
-  <div class="cursor"></div>
+  <div class="hidden md:blockcursor"></div>
 </template>
 
 <style>
