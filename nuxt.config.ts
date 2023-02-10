@@ -12,10 +12,29 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
-      title: 'My App',
+      title: 'Be At One Restaurant - Text Mex',
+      
       meta: [
-        // <meta name="description" content="My amazing site">
-        { name: 'description', content: 'My amazing site.' }
+        { name:"keywords", content:"restaurant, motta, pub motta, beatone" },
+        { name:"subject", content:"Be At One Restaurant - Text Mex" },
+        { name:"copyright",content:"Be At One" },
+        { name:"robots", content:"index,follow"  },
+        { name:"topic", content:"" },
+        { name:"author", content:"giancarmelo, giancarmelo@gmail.com" },
+        { name:"designer", content:"giancarmelo, giancarmelo@gmail.com" },
+        { name:"copyright", content:"BeAtOne" },
+        { name:"url", content:"https://giancarmelopittala.com/beatone-nuxt/" },
+        { name:"category", content:"food" },
+        { name:"coverage", content:"Worldwide" },
+        { name:"distribution", content:"Global" },
+
+        { name:'description', content: 'Be At One Pub motta, tex mex' },
+        { name:"og:title", content:"Be At One Restaurant - Text Mex" },
+        { name:"og:type", content:"website" },
+        { name:"og:url", content:"https://giancarmelopittala.com/beatone-nuxt/" },
+        { name:"og:image", content:"https://giancarmelopittala.com/beatone-nuxt/imgs/icon/android-chrome-192x192.png" },
+        { name:"og:site_name", content:"Be At One Restaurant - Text Mex" },
+        { name:"og:description", content:"Be At One Pub motta, tex mex"}
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/imgs/icon/favicon.ico' },
