@@ -12,7 +12,7 @@
     <nav class=" bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div class="flex flex-wrap items-center justify-between">
         <nuxt-link class="flex items-center" :to="localePath('/')">
-          <img src="imgs/icon/favicon-16x16.png" class="h-6 mr-3 sm:h-10" alt="Flowbite Logo" />
+          <img src="/imgs/icon/favicon-16x16.png" class="h-6 mr-3 sm:h-10" alt="Flowbite Logo" />
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BeAtOne</span>
         </nuxt-link>
         <BaseHeaderOpenButton  @click="open = !open" />
