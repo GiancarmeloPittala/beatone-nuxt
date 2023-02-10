@@ -16,18 +16,36 @@
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BeAtOne</span>
         </nuxt-link>
         <BaseHeaderOpenButton  @click="open = !open" />
-        <div class="hidden w-full md:block md:w-auto links"  :class="{ 'open': open }">
-          <ul
-            class=" flex items-center flex-col p-4 pr-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 capitalize">
+        <div class="hidden w-full md:block md:w-auto links mt-4"  :class="{ 'open': open }">
+  
+          <ul class="flex items-center text-xl">
             <li>
-              <nuxt-link :to="localePath('/')">Home
+              <nuxt-link :to="localePath({ path: '/', hash: $t('menu[0].to') })">
+                {{ $t('menu[0].text') }}
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link :to="localePath('/test')">
-                Test
+              <nuxt-link :to="localePath({ path: '/', hash: $t('menu[1].to') })">
+                {{ $t('menu[1].text') }}
               </nuxt-link>
             </li>
+            <li>
+              <nuxt-link :to="localePath({ path: '/', hash: $t('menu[2].to') })">
+                {{ $t('menu[2].text') }} 
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link :to="localePath({ path: '/', hash: $t('menu[3].to') })">
+                {{ $t('menu[3].text') }}
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link :to="localePath({ path: '/', hash: $t('menu[4].to') })">
+                {{ $t('menu[4].text') }}
+              </nuxt-link>
+            </li>
+
+           
             <div class="pl-4 border-l-2 border-gray-200 z-50"> 
                <BaseHeaderLangSwitcher />
             </div>
@@ -46,6 +64,8 @@
 }
 </style>
 <script setup>
+
+
 const localePath = useLocalePath()
 const open = ref(false)
 </script>

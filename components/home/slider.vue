@@ -1,20 +1,34 @@
 <template>
-  <div class="relative">
-    <Splide  :options="options" aria-label="My Favorite Images">
+  <div id="top" class="relative">
+    <Splide :options="options" aria-label="My Favorite Images">
       <SplideSlide v-for="i of 14" :key="i">
-  
-        <picture >
+
+        <picture>
           <source media="(max-width: 600px)" :srcset="'https://source.unsplash.com/random/600x600?food' + i" />
           <source media="(min-width: 800px)" :srcset="'https://source.unsplash.com/random/800x600?texas+food' + i" />
-          <img loading="lazy" class=" h-full object-cover w-full" :src="'https://source.unsplash.com/random/1200x600?' + i" alt="Chris standing up holding his daughter Elva" />
+          <img loading="lazy" class=" h-full object-cover w-full"
+            :src="'https://source.unsplash.com/random/1200x600?' + i"
+            alt="Chris standing up holding his daughter Elva" />
         </picture>
-  
+
       </SplideSlide>
-      
+
     </Splide>
 
-    <div v-if="caption" class=" bg-opacity-70  hidden sm:block absolute bottom-10 left-10 max-w-[50%] bg-gray-50 p-8 rounded-lg font-bold">
-      {{caption}}
+    <div
+      class=" max-w-xl bg-opacity-70 sm:block absolute left-2 top-2 xl:top-1/2 translate-x-1/2 -translate-y-1/2  bg-gray-50 p-8 rounded-lg">
+      <h2 class="text-4xl">
+        What we learned so far
+      </h2>
+      <p class="text-6xl font-normal my-8">
+        THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
+      </p>
+      <button class="border hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">
+        <span class="flex items-center gap-2">
+          <Icon name="bi:telephone-forward"  />
+          <a href="tel:+39485938444">+39485938444</a>
+        </span>
+      </button>
     </div>
   </div>
 </template>
@@ -29,17 +43,17 @@ const props = defineProps({
 })
 const options = reactive({
   rewind: true,
-  perPage: 2,
+  perPage: 1,
   gap: "1rem",
-  fixedWidth: "50%",
-  fixedHeight: 500,
+  autoplay: true,
+  interval: 3500,
+  fixedHeight: 600,
   breakpoints: {
     1200: {
-      fixedWidth: 600,
+      fixedWidth: 500,
     },
     640: {
       fixedWidth: "100%",
-      fixedHeight: 300,
     },
   }
 })

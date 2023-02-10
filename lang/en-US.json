@@ -1,4 +1,26 @@
 {
+  "menu": [
+    {
+      "to": "#top",
+      "text": "Home"
+    },
+    {
+      "to": "#special",
+      "text": "Special"
+    },
+    {
+      "to": "#about-us",
+      "text": "About Us"
+    },
+    {
+      "to": "#contact-us",
+      "text": "Contact"
+    },
+    {
+      "to": "#location",
+      "text": "Location"
+    }
+  ],
   "test": "Hello"
 }
 

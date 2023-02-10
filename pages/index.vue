@@ -20,7 +20,7 @@ useSchemaOrg([
     </section>
 
     <div class="container mx-auto px-4 xl:px-6 grid my-6 xl:my-8 gap-6 xl:gap-8">
-        <HomeDescription />
+        <HomeDescription class=" text-xl" />
         <HomeSpecial />
         <HomeContact />
     </div>

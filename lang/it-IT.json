@@ -1,3 +1,25 @@
 {
+  "menu": [
+    {
+      "to": "#top",
+      "text": "Home"
+    },
+    {
+      "to": "#special",
+      "text": "Special"
+    },
+    {
+      "to": "#about-us",
+      "text": "Chi siamo"
+    },
+    {
+      "to": "#contact-us",
+      "text": "Contatti"
+    },
+    {
+      "to": "#location",
+      "text": "Dove trovarci"
+    }
+  ],
   "test": "ciao"
 }

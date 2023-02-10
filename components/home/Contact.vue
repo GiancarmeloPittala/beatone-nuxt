@@ -1,6 +1,6 @@
 <template>
-  <div class=" relative">
-    <div class="absolute inset-0 bg-gray-300">
+  <div class="relative" id="contact-us">
+    <div id="location" class="absolute inset-0 bg-gray-300">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.6735420352684!2d14.96454961558743!3d37.515617134799776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131159dd26717ce3%3A0x23940e9e9003fbb0!2sBe%20At%20One%20Restaurant%20-%20Tex%20Mex!5e0!3m2!1sit!2sit!4v1676031294976!5m2!1sit!2sit"
         width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
