@@ -16,9 +16,9 @@
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BeAtOne</span>
         </nuxt-link>
         <BaseHeaderOpenButton  @click="open = !open" />
-        <div class="hidden w-full md:block md:w-auto links mt-4"  :class="{ 'open': open }">
+        <div class="hidden w-full lg:block md:w-auto links mt-4"  :class="{ 'open': open }">
   
-          <ul class="grid md:flex space-y-4 md:space-y-0 items-center text-xl p-4 md:pr-0 mt-4 border border-primary-100 rounded-lg bg-gray-50 md:border-0 md:space-x-6 md:mt-0">
+          <ul class="grid lg:flex space-y-4 md:space-y-0 items-center text-xl p-4 md:pr-0 mt-4 border border-primary-100 rounded-lg bg-gray-50 lg:border-0 md:space-x-6 md:mt-0">
             <li>
               <nuxt-link :to="localePath({ path: '/', hash: $t('menu[0].to') })">
                 {{ $t('menu[0].text') }}

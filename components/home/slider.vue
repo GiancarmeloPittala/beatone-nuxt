@@ -20,7 +20,7 @@
       <h2 class="text-4xl">
         What we learned so far
       </h2>
-      <p class="text-5xl lg:text-6xl font-normal my-8">
+      <p class="text-5xl lg:text-6xl my-8">
         THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
       </p>
       <button class="border transition-colors hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">

@@ -74,7 +74,9 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     //https://headlessui.com/
     'nuxt-headlessui',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    //https://strapi.nuxtjs.org/setup
+    '@nuxtjs/strapi'
   ],
   i18n: {
     locales: [
@@ -122,5 +124,8 @@ export default defineNuxtConfig({
     meta: {
       host: 'https://example.com'
     }
+  },
+  strapi: {
+    // Options
   }
 })
