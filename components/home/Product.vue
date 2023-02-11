@@ -1,6 +1,6 @@
 <template>
   <!-- Card effect  inspired by this dribble (https://dribbble.com/shots/4579038-Foodiefit-Interaction-studio-included) -->
-  <div class="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  gap-6">
+  <div class="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
     <div class="card">
       <img class="card-image"
         src="http://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/51137579.jpg?tr=w-414,">

@@ -1,5 +1,5 @@
 <template>
-  <div id="about-us" class="grid gap-8 lg:gap-6 lg:grid-cols-2">
+  <div id="about-us" class="grid gap-8 lg:grid-cols-2">
     <div class="order-2 lg:order-1 flex items-center bg-primary-900 px-12 py-14">
       <div class="">
         <h2 class="text-primary-100 text-4xl rounded-lg text-dancing">About Us</h2>
