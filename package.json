@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
-    "@splidejs/vue-splide": "^0.6.12"
+    "@splidejs/vue-splide": "^0.6.12",
+    "aos": "^2.3.4"
   }
 }

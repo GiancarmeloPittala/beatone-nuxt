@@ -1,7 +1,7 @@
 <template>
   <!-- Card effect  inspired by this dribble (https://dribbble.com/shots/4579038-Foodiefit-Interaction-studio-included) -->
   <div class="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-delay="300">
       <img class="card-image"
         src="http://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/51137579.jpg?tr=w-414,">
       <div class="card-footer">
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-delay="400">
       <img class="card-image"
         src="http://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/48349911.jpg?tr=w-414,">
       <div class="card-footer">
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-delay="500">
       <img class="card-image"
         src="http://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/48349973.jpg?tr=w-414,">
       <div class="card-footer">
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-delay="600">
       <img class="card-image"
         src="https://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/94741158.jpg?tr=w-400">
       <div class="card-footer">
@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-delay="700">
       <img class="card-image"
         src="https://img.jamieoliver.com/jamieoliver/recipe-database/xtra_med/92507789.jpg?tr=w-400">
       <div class="card-footer">

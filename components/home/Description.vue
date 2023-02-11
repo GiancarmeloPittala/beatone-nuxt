@@ -5,7 +5,8 @@
         <h2 class="text-primary-100 text-4xl rounded-lg text-dancing">About Us</h2>
         <h3 class="text-4xl my-6">Prime Gastronomy.</h3>
         <div class="grid gap-8">
-          <div class="flex flex-col lg:flex-row gap-4">
+          <div data-aos="fade-up" 
+     data-aos-anchor-placement="bottom-bottom" class="flex flex-col lg:flex-row gap-4">
             <Icon class="mx-auto w-12 h-8 text-primary" name="ion:flower-outline" />
             <div class="flex-1">
               <h4 class="text-2xl mb-2">Weddings</h4>
@@ -13,7 +14,8 @@
                 fringilla. Etiam quis purus massa.</p>
             </div>
           </div>
-          <div class="flex flex-col lg:flex-row gap-4">
+          <div data-aos-delay="300" data-aos="fade-up" 
+     data-aos-anchor-placement="bottom-bottom" class="flex flex-col lg:flex-row gap-4">
             <Icon class="mx-auto w-12 h-8 text-primary" name="mdi:party-popper" />
             <div class="flex-1">
               <h4 class="text-2xl mb-2 gap-4">Private Partys</h4>
@@ -21,7 +23,8 @@
                 fringilla. Etiam quis purus massa.</p>
             </div>
           </div>
-          <div class="flex flex-col lg:flex-row gap-4">
+          <div data-aos-delay="500" data-aos="fade-up" 
+     data-aos-anchor-placement="bottom-bottom" class="flex flex-col lg:flex-row gap-4">
             <Icon class="mx-auto w-12 h-8 text-primary" name="fluent:people-community-28-regular" />
             <div class="flex-1">
               <h4 class="text-2xl mb-2">Meetings</h4>
@@ -33,7 +36,7 @@
       </div>
     </div>
     <div class="order-1 lg:order-2 ">
-      <img loading="lazy" class="rounded-lg w-full h-full object-cover object-center"
+      <img data-aos="fade-up" loading="lazy" class="rounded-lg w-full h-full object-cover object-center"
         src="https://source.unsplash.com/UC0HZdUitWY/700x700" alt="">
     </div>
   </div>
