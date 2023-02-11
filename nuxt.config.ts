@@ -10,11 +10,12 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/beatone-nuxt/' : '',
     head: {
-      charset: 'utf-16',
-      viewport: 'width=500, initial-scale=1',
+      charset: 'UTF-8',
+      viewport: 'width=device-width, initial-scale=1.0',
       title: 'Be At One Restaurant - Text Mex',
       
       meta: [
+        { name:"X-UA-Compatible", content:"IE=edge" },
         { name:"keywords", content:"restaurant, motta, pub motta, beatone" },
         { name:"subject", content:"Be At One Restaurant - Text Mex" },
         { name:"copyright",content:"Be At One" },
@@ -126,6 +127,10 @@ export default defineNuxtConfig({
     }
   },
   strapi: {
-    // Options
+    url: process.env.STRAPI_URL || 'http://localhost:1337',
+    prefix: '/api',
+    version: 'v4',
+    cookie: {},
+    cookieName: 'strapi_jwt'
   }
 })

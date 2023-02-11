@@ -5,7 +5,7 @@
       <slot />
     </main>
     <BaseFooter />
-    <BaseCursor />
+    <!-- <BaseCursor /> -->
   </div>
 
 
