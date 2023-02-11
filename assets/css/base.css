@@ -1,37 +1,37 @@
-body{
-  font-family: 'Roboto Slab', serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  /* background-image: url(/imgs/pub_BG.jpg); */
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.links a{
+.links a {
   padding: 0.5rem 1rem;
   transition: all .4s;
-  /* border-left: 2px solid transparent;  */
-}
-.links a:hover{
-  /* border-left: 2px solid hsla(39, 47%, 59%, 1);  */
-  color: hsla(39, 47%, 59%, 1);
-  
 }
 
-.text-sassy{
-  
+.links a:hover {
+  color: hsla(39, 47%, 59%, 1);
+}
+
+.text-dancing {
+
   margin: 25px 0;
-  font-family: 'Sassy Frass', cursive;
+  font-family: 'Dancing Script', cursive;
   font-weight: 400;
-  letter-spacing: .02em;
+  letter-spacing: .2em;
   text-transform: uppercase;
 }
 
-figure *{
-  
+figure * {
+
   -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 

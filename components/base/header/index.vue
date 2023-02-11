@@ -1,6 +1,6 @@
 <template>
   <header class="px-4 py-2 container mx-auto  my-2">
-    <p class=" text-sm font-bold flex items-center justify-between border-b-2 pb-2  border-primary-100">
+    <p class="flex xl:text-[16px] text-[12px] font-[500] items-center justify-between border-b-2 pb-2  border-primary-100">
       <h1>
         Be At One Restaurant - Text Mex
       </h1>

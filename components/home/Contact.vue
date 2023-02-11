@@ -10,13 +10,26 @@
       <div
         class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
         <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contattaci</h2>
+        <div class="my-4">
+          <span class="flex gap-4 items-center ">       
+            <Icon class="w-10 h-7" name="uil:location-point"  />
+            <p class="flex-1">Via Enrico Toti, 1, 95040 Motta Sant'Anastasia CT</p>
+          </span>
+        </div>
+        <div class="mb-4">
+          <span class="flex gap-4 items-center ">       
+            <Icon class="w-10 h-7" name="material-symbols:av-timer-rounded"  />
+            <p class="flex-1">lun-dom 17-01</p>
+          </span>
+        </div>
         <p class="leading-relaxed mb-5 text-gray-600">Chiama ora per ordinare o prenotare un tavolo</p>
-        <button
+        <BaseButton
           class="text-black border border-primary transition-colors hover:bg-primary-900 rounded-lg  py-2 px-6 focus:outline-none  text-lg font-extrabold flex gap-4 items-center justify-center">
           <Icon name="bi:telephone-forward" />
           <a href="tel:+39485938444">+39485938444</a>
-        </button>
-        <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
+        </BaseButton>
+        <p class="text-xs text-gray-500 mt-3">
+          Prenota ora
         </p>
       </div>
     </div>

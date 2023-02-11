@@ -7,7 +7,7 @@
           <source media="(max-width: 600px)" :srcset="'https://source.unsplash.com/random/600x600?food' + i" />
           <source media="(min-width: 800px)" :srcset="'https://source.unsplash.com/random/800x600?texas+food' + i" />
           <img loading="lazy" class=" h-full object-cover w-full"
-            :src="'https://source.unsplash.com/random/1200x600?' + i"
+            :src="'https://source.unsplash.com/random/1200x600?food' + i"
             alt="Chris standing up holding his daughter Elva" />
         </picture>
 
@@ -23,12 +23,15 @@
       <p class="text-5xl lg:text-6xl font-normal my-8">
         THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
       </p>
-      <button class="border transition-colors hover:bg-gray-900 shadow-lg hover:text-gray-50 rounded-lg border-gray-900  px-4 py-2">
-        <span class="flex items-center gap-2">
-          <Icon name="bi:telephone-forward"  />
-          <a href="tel:+39485938444">+39485938444</a>
-        </span>
-      </button>
+   
+        <BaseButton>
+          <a class=" animate-bounce flex items-center gap-2" href="tel:+39485938444">
+            <Icon name="bi:telephone-forward"  />
+            <span>+39485938444</span>
+          </a>
+        </BaseButton>
+     
+   
     </div>
   </div>
 </template>

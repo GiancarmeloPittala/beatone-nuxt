@@ -50,8 +50,8 @@ export default defineNuxtConfig({
     },
   },
   css: [
+    '@/assets/css/base.css',
     '@/assets/css/tailwind.css',
-    '@/assets/css/base.css'
   ],
   build: {
     postcss: {
@@ -62,8 +62,7 @@ export default defineNuxtConfig({
     },
   },
   buildModules: [
-    '@nuxt/postcss8',
-    '@nuxtjs/google-fonts'
+    '@nuxt/postcss8'
   ],
   modules: [
     '@nuxtjs/i18n',
@@ -76,9 +75,12 @@ export default defineNuxtConfig({
     //https://headlessui.com/
     'nuxt-headlessui',
     '@nuxtjs/tailwindcss',
-    //https://strapi.nuxtjs.org/setup
-    '@nuxtjs/strapi'
+    //https://pinia.vuejs.org/ssr/nuxt.html
+    '@pinia/nuxt',
   ],
+  typescript: {
+    shim: false
+  },
   i18n: {
     locales: [
       {
@@ -111,13 +113,6 @@ export default defineNuxtConfig({
   robots: {
     sitemap: 'https:/localhost/sitemap.xml',
   },
-  googleFonts: {
-    families: {
-      'Roboto Slab': true,
-      'Sassy Frass': true,
-      'sans-serif': true
-    }
-  },
   sitemap: {
     hostname: 'https://example.com',
   },
@@ -126,11 +121,4 @@ export default defineNuxtConfig({
       host: 'https://example.com'
     }
   },
-  strapi: {
-    url: process.env.STRAPI_URL || 'http://localhost:1337',
-    prefix: '/api',
-    version: 'v4',
-    cookie: {},
-    cookieName: 'strapi_jwt'
-  }
 })

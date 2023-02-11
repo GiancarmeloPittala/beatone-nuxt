@@ -12,7 +12,7 @@
 
     <div class="rounded-lg p-10 flex items-center border-2 border-primary-100 lg:col-span-2 ">
       <div class="mx-auto">
-        <h3 class="text-primary text-3xl text-center text-sassy">Ready</h3>
+        <h3 class="text-primary text-3xl text-center text-dancing">Ready</h3>
         <h2 class="text-4xl uppercase font-bold">For Party?</h2>
       </div>
     </div>

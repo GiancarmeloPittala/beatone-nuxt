@@ -1,13 +1,17 @@
+
+import { defineStore } from 'pinia';
+
 export const useHomeStore = defineStore('home', {
   state: () => ({
-    
+    email: 'peppino'
   }),
   getters: {
-    doubleCount: (state) => state.count * 2,
+    getEmail: (state) => state.email,
   },
   actions: {
-    increment() {
-      this.count++
+    init(data) {
+      for( const col in data)
+        this[col] = data[col]
     },
   },
 })
