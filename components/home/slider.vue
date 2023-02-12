@@ -1,13 +1,13 @@
 <template>
-  <div id="top" class="relative">
+  <div id="top" class="relative container mx-auto" >
     <Splide :options="options" aria-label="My Favorite Images">
       <SplideSlide v-for="i of 5" :key="i">
 
-        <picture>
-          <source media="(max-width: 600px)" :srcset="'https://source.unsplash.com/random/600x600?food' + i" />
-          <source media="(min-width: 800px)" :srcset="'https://source.unsplash.com/random/800x600?texas+food' + i" />
-          <img loading="lazy" class=" h-full object-cover w-full"
-            :src="'https://source.unsplash.com/random/1200x600?food' + i"
+        <picture >
+          <source media="(max-width: 600px)" :srcset="'https://source.unsplash.com/random/600x720?food'" />
+          <source media="(min-width: 800px)" :srcset="'https://source.unsplash.com/random/800x720?tree'" />
+          <img loading="lazy" class="h-full object-cover object-center w-full rounded-lg" 
+            :src="'https://source.unsplash.com/random/1280x720?woman' + i"
             alt="Chris standing up holding his daughter Elva" />
         </picture>
 
@@ -16,11 +16,11 @@
     </Splide>
 
     <div
-      class="max-w-xl bg-opacity-70 absolute bg-gray-50 p-8 rounded-lg top-0 left-0 m-6 mt-8 lg:ml-[300px] lg:mt-20">
-      <h2 class="text-4xl">
+      class="max-w-xl bg-opacity-70 absolute bg-gray-50 p-8 rounded-lg bottom-10 left-14 right-14 border-2 border-primary ">
+      <h2 class="md:text-4xl">
         What we learned so far
       </h2>
-      <p class="text-5xl lg:text-6xl font-normal my-8">
+      <p class="md:text-5xl lg:text-6xl font-normal my-8">
         THE BEST IDEAS EMERGE FROM THE SIMPLEST TOOLS
       </p>
    
