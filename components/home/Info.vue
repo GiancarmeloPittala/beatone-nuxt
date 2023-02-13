@@ -6,7 +6,7 @@
         <h2 class="text-4xl uppercase font-bold">For Party?</h2>
       </div>
     </div>
-    <div data-aos-duration="2300" data-aos="fade-right" class="border-2">
+    <div data-aos-duration="2300" data-aos="fade-up" class="border-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?beer" alt="Beer" />
         <figcaption>
@@ -14,7 +14,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-duration="1400" data-aos="fade-left" class="border-2 lg:col-span-2">
+    <div data-aos-duration="1400" data-aos="fade-up" class="border-2 lg:col-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?dance" alt="Thumb" />
         <figcaption>
@@ -22,7 +22,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-duration="1000" data-aos="fade-up-left" class="border-2 lg:col-span-2">
+    <div data-aos-duration="1000" data-aos="fade-up" class="border-2 lg:col-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?karaoke" alt="beer" />
         <figcaption>
@@ -30,7 +30,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-duration="1500" data-aos="fade-right">
+    <div data-aos-duration="1500" data-aos="fade-up">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center" src="https://source.unsplash.com/random/1200x600?sound" alt="Thumb" />
         <figcaption>

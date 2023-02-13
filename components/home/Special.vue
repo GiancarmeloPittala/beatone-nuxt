@@ -1,6 +1,6 @@
 <template>
   <div class="grid lg:grid-cols-6 gap-8">
-    <div data-aos-delay="300" data-aos="fade-right" class="border-2 lg:row-span-2">
+    <div data-aos="fade-top" class="border-2 lg:row-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?dance" alt="Thumb" />
@@ -9,13 +9,13 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="fade-bottom" class="rounded-lg p-10 flex items-center border-2 border-primary-100 lg:col-span-2 ">
+    <div data-aos="fade-top" class="rounded-lg p-10 flex items-center border-2 border-primary-100 lg:col-span-2 ">
       <div class="mx-auto">
         <h3 class="text-primary text-3xl text-center text-dancing">Ready</h3>
         <h2 class="text-4xl uppercase font-bold">For Party?</h2>
       </div>
     </div>
-    <div data-aos-delay="300" data-aos="fade-bottom" class="border-2">
+    <div data-aos="fade-top" class="border-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?beer" alt="Beer" />
@@ -24,7 +24,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="fade-bottom" class="border-2 lg:col-span-2">
+    <div data-aos="fade-top" class="border-2 lg:col-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?karaoke" alt="beer" />
@@ -33,7 +33,7 @@
         </figcaption>
       </figure>
     </div>
-    <div  data-aos-delay="300" data-aos="fade-bottom" class="border-2 lg:col-span-3">
+    <div  data-aos="fade-top" class="border-2 lg:col-span-3">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?sound" alt="Thumb" />
@@ -42,7 +42,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="zoom-out-up" class="border-2">
+    <div data-aos="fade-top" class="border-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?tree" alt="Thumb" />
@@ -51,7 +51,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="fade-left" class="border-2 lg:row-span-2">
+    <div data-aos="fade-top" class="border-2 lg:row-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?sound+1" alt="Thumb" />
@@ -60,7 +60,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="fade-top" class="border-2 lg:col-span-3">
+    <div data-aos="fade-top" class="border-2 lg:col-span-3">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?octo" alt="Thumb" />
@@ -69,7 +69,7 @@
         </figcaption>
       </figure>
     </div>
-    <div data-aos-delay="300" data-aos="fade-top" class="border-2 lg:col-span-2">
+    <div data-aos="fade-top" class="border-2 lg:col-span-2">
       <figure>
         <img class="rounded-lg object-cover w-full h-full object-center"
           src="https://source.unsplash.com/random/1200x600?sound+2" alt="Thumb" />
